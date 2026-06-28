@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Елена Родина",
+    role: "Оформила кредитную карту",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Сравнила сразу несколько банков в одном месте и выбрала карту с большим кэшбэком. Заявку одобрили за 15 минут!",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Марк Уваров",
+    role: "Взял кредит наличными",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Нужны были деньги на ремонт. Подобрали кредит с самой низкой ставкой, оформил онлайн без справок и поездок в банк.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Анна Ковалёва",
+    role: "Открыла дебетовую карту",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Удобно, что всё бесплатно и понятно. Выбрала карту с процентом на остаток, доставили на следующий день.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют клиенты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Тысячи людей уже оформили карты и кредиты с нашей помощью
           </p>
         </div>
 
