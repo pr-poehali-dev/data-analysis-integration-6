@@ -1,5 +1,4 @@
 import { Hero3DWebGL as Hero3D } from "@/components/hero-webgl"
-import { FeaturesSection } from "@/components/features-section"
 import { TechnologySection } from "@/components/technology-section"
 import { ApplicationsTimeline } from "@/components/applications-timeline"
 import { AboutSection } from "@/components/about-section"
@@ -16,7 +15,6 @@ export default function Index() {
       <Navbar />
       <main>
         <Hero3D />
-        <FeaturesSection />
         <section id="technology">
           <TechnologySection />
         </section>
